@@ -1,0 +1,97 @@
+[user]
+	email = bernardo5@live.com.pt
+	name = Bernardo Vieira
+[push]
+	default = matching
+[core]
+	# whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	excludesfile = ~/.gitignore
+[alias]
+	#############
+	c = commit
+	ca = commit -a
+	cm = commit -m
+	cam = commit -am
+	cem = commit --allow-empty -m
+	cd = commit --amend
+	cad = commit -a --amend
+	ced = commit --allow-empty --amend
+	#############
+	cl = clone
+	cld = clone --depth 1
+	clg = !sh -c 'git clone git://github.com/$1 $(basename $1)' -
+	#############
+	cp = cherry-pick
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+	#############
+	f = fetch
+	fo = fetch origin
+	fu = fetch upstream
+	#############
+	m = merge
+	ma = merge --abort
+	mc = merge --continue
+	ms = merge --skip
+	#############
+	ps = push
+	psu = push -u
+	pst = push --tags
+	#############
+	pso = push origin
+	psao = push --all origin
+	psuo = push -u origin
+	#############
+	pl = pull
+	pb = pull --rebase
+    #############
+	plu = pull upstream
+	plum = pull upstream master
+	pbum = pull --rebase upstream master
+	#############
+	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbi = rebase --interactive
+	rbs = rebase --skip
+	#############
+	re = reset
+	rh = reset HEAD
+	reh = reset --hard
+	rem = reset --mixed
+	res = reset --soft
+	rehh = reset --hard HEAD
+	remh = reset --mixed HEAD
+	resh = reset --soft HEAD
+	#############
+	r = remote
+	ra = remote add
+	rr = remote rm
+	rv = remote -v
+	rn = remote rename
+	rp = remote prune
+	rs = remote show
+	rao = remote add origin
+	rau = remote add upstream
+	rro = remote remove origin
+	rru = remote remove upstream
+	rso = remote show origin
+	rsu = remote show upstream
+	rpo = remote prune origin
+	rpu = remote prune upstream
+	#############
+	s = status
+	sb = status -s -b
+	#############
+	sl = stash list
+	sp = stash pop
+	ss = stash save
+	sw = stash show
+	#############
+	t = tag
+	td = tag -d
+	#############
+	ours = "!f() { git checkout --ours $@ && git add $@; }; f"
+	theirs = "!f() { git checkout --theirs $@ && git add $@; }; f"
+	human = name-rev --name-only --refs=refs/heads/*
+
