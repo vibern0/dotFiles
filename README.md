@@ -1,15 +1,14 @@
 # dotFiles
 My configuration files for bash, zsh, git and more.
 
-
+## redlight
+Add redlight config. Auto update color.
 
 ## zsh
-
-
+Using powerlevel9k
 
 ## git
-
-
+A set of alias and other usefull configuration
 
 ## tmux
 
@@ -25,10 +24,10 @@ Under tmux prefix `C-a`:
 - `g` - tail `log/development.log` in a new window
 - `R` - source `~/.tmux.conf` after changes
 
-Regular tmux keybindings:
+My tmux keybindings:
 
-    % vertical split
-    " horizontal split
+    _ vertical split (by default is %)
+    - horizontal split (by default is ")
     ! break pane into new window
     c new window
     
@@ -56,3 +55,5 @@ Regular tmux keybindings:
     ] paste buffer
     # list buffers
     - delete buffer
+
+It's also possible to use the mouse and move between panes using ALT and the arrows.
