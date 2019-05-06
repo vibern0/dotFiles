@@ -57,3 +57,6 @@ My tmux keybindings:
     - delete buffer
 
 It's also possible to use the mouse and move between panes using ALT and the arrows.
+
+## Transparent taskbar
+To make the taskbar transparent, choose the diresed theme to be used, then open to `/usr/share/themes/Linux\ Mint/cinnamon.css` and add `background-color: rgba(0,0,0,0);` to **#panel**. Save and change the theme (for the same theme, just to update). If you see a shadow, comment out everything that starts with *#panel* and has a `*-gradient-*` property.
