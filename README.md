@@ -7,9 +7,9 @@ This configration set includes configuration to bash, oh-my-zsh, tmux, git and m
 (to be written)
 
 
-## Tools
+## Shell
 ### oh-my-zsh
-Using powerlevel9k
+Using zsh with powerlevel9k. It also requires to install nerdfont-complete.
 
 ### git
 A set of alias and other usefull configuration
@@ -66,8 +66,9 @@ It's also possible to use the mouse and move between panes using ALT and the arr
 
 </details>
 
-## UI
+## User Interface
 ### Switch environments like MAC
+Gestures is a package that allows you to config actions when using fingers.
 https://www.omgubuntu.co.uk/2018/09/linux-touchpad-gestures-app
 
 ### Transparent taskbar
@@ -77,6 +78,9 @@ To make the taskbar transparent, choose the diresed theme to be used, then open 
 * https://cinnamon-spices.linuxmint.com/applets/view/282 (Cinnamenu)
 * https://cinnamon-spices.linuxmint.com/applets/view/79 (Multi-Core System Monitor)
 * https://cinnamon-spices.linuxmint.com/applets/view/202 (Up Time)
+
+## Tools
+* https://github.com/emre/storm
 
 ## Misc
 * https://the.exa.website/
