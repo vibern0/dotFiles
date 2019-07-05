@@ -4,7 +4,39 @@ Welcome to my dotFiles configuration.
 This configration set includes configuration to bash, oh-my-zsh, tmux, git and more.
 
 ## Software
-(to be written)
+* Development
+    * Android Studio
+    * Arduino IDE
+    * DB Browser for SQLite
+    * Fritzing
+    * Ganache
+    * Intellij IDEA
+    * Postman
+    * PyCharm Community
+    * RoboMongo
+    * SQLtabs
+    * VScode
+    * zeal
+    * gitg
+* Graphics
+    * KSnapshot
+    * GIMP
+* Internet
+    * Brave
+    * Clipgrab
+    * Deluge
+    * IPFS Desktop
+    * Skype
+    * Vivaldi
+    * Zoom
+* Productivity
+    * Typora
+* Audio & Video
+    * Kazam
+    * VLC
+* Administration
+    * VirtualBox
+    * Grub costumizer
 
 
 ## Shell
@@ -84,4 +116,5 @@ To make the taskbar transparent, choose the diresed theme to be used, then open 
 
 ## Misc
 * https://the.exa.website/
+* https://mayccoll.github.io/Gogh/
 * https://github.com/dylanaraps/neofetch
