@@ -7,6 +7,7 @@ This configration set includes configuration to bash, oh-my-zsh, tmux, git and m
 * Development
     * Android Studio
     * Arduino IDE
+    * Atom
     * DB Browser for SQLite
     * Fritzing
     * Ganache
@@ -118,3 +119,23 @@ To make the taskbar transparent, choose the diresed theme to be used, then open 
 * https://the.exa.website/
 * https://mayccoll.github.io/Gogh/
 * https://github.com/dylanaraps/neofetch
+
+## Tools for languages
+* sudo apt install clang-format
+
+### vscode
+*
+
+### atom
+* atom-ide-ui
+* file-icons
+* formatter
+* formatter-clangformat
+* intellij-idea-keymap
+
+
+Also, add the following in keymap.cson
+```javascript
+'atom-text-editor':
+  'shift-r': 'formatter:format-code'
+```
