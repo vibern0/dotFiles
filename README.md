@@ -100,6 +100,9 @@ It's also possible to use the mouse and move between panes using ALT and the arr
 </details>
 
 ## User Interface
+### Calendar format
+%A, %e %B %Y, %H:%M:%S %Z, w%V, %j
+
 ### Switch environments like MAC
 Gestures is a package that allows you to config actions when using fingers.
 https://www.omgubuntu.co.uk/2018/09/linux-touchpad-gestures-app
@@ -123,8 +126,23 @@ To make the taskbar transparent, choose the diresed theme to be used, then open 
 ## Tools for languages
 * sudo apt install clang-format
 
-### vscode
-*
+### vscode extensions
+* Bracket Pair Colorizer
+* EditorConfig for VS Code
+* ESLint
+* GitLens — Git supercharged
+* IntelliJ IDEA Keybindings
+* Material Icon Theme
+* Rainglow
+* solidity
+* TODO Highlight
+* Debugger for Chrome
+* Docker
+* DotEnv
+* TSLint
+* Version Lens
+* VSCode HackerTyper
+
 
 ### atom
 * atom-ide-ui
