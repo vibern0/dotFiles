@@ -42,7 +42,7 @@ This configration set includes configuration to bash, oh-my-zsh, tmux, git and m
 
 ## Shell
 ### oh-my-zsh
-Using zsh with powerlevel9k. It also requires to install nerdfont-complete.
+Using zsh with powerlevel9k. It also requires to install nerdfont-complete (Ubuntu Mono Nerd Font Complete Mono.ttf).
 
 ### git
 A set of alias and other usefull configuration
